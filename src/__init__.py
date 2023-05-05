@@ -18,3 +18,4 @@ session_auth_service = SessionAuthService(
     EXPIRATION_SESSION_TOKEN_IN_SECONDS, redis_repository)
 
 from src.controllers.auth import *
+from src.controllers.test import *
