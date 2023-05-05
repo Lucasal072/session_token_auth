@@ -1,0 +1,5 @@
+redis[hiredis]
+flask_pymongo
+flask
+flask_reqparse
+bcrypt
