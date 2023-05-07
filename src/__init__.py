@@ -13,7 +13,7 @@ app.config.from_object('src.config.settings')
 mongo = PyMongo(app)
 user_repository = MongoUserRepository(mongo)
 bcypt_hash_service = BcryptHashService(gensalt())
-redis_repository = RedisAuthRepository('redis')
+redis_repository = RedisAuthRepository()
 session_auth_service = SessionAuthService(
     EXPIRATION_SESSION_TOKEN_IN_SECONDS, redis_repository)
 
