@@ -74,7 +74,6 @@ Contribuições são bem-vindas! Se você deseja contribuir com este projeto, po
 8. Integração: Após a aprovação da revisão de código, suas alterações serão integradas ao projeto principal.
 
 Agradecemos antecipadamente por suas contribuições!
-refaz com comandos em shell
 
 ## Licença
 
