@@ -1,5 +1,6 @@
 redis[hiredis]
 flask_pymongo
-flask
+flask == 2.2.3
 flask_reqparse
 bcrypt
+uwsgi
